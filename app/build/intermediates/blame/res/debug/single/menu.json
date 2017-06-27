@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_config.xml",
+        "source": "D:\\SpeedataDemo\\S21finger\\app\\src\\main\\res\\menu\\activity_config.xml"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "D:\\SpeedataDemo\\S21finger\\app\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\SpeedataDemo\\S21finger\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

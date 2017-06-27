@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\drawer_shadow.9.png",
+        "source": "D:\\SpeedataDemo\\S21finger\\app\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\SpeedataDemo\\S21finger\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_drawer.png",
+        "source": "D:\\SpeedataDemo\\S21finger\\app\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+    }
+]

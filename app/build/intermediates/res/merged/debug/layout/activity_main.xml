@@ -1,0 +1,348 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.suprema.example.MainActivity" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txversion"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/version"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ListView
+                android:layout_width="100dp"
+                android:id="@+id/listScanners"
+                android:choiceMode="singleChoice"
+                android:clickable="false"
+                android:focusable="true"
+                android:footerDividersEnabled="false"
+                android:background="#eeeeee"
+                android:layout_height="180dp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher"
+                android:contentDescription=""
+                android:layout_weight="0.5"
+                android:scaleType="fitCenter"
+                android:layout_width="120dp"
+                android:layout_height="180dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txmessage"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="@string/message"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:layout_height="80dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 >
+
+                <Button
+                    android:id="@+id/btnfinddevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/find_device" />
+
+                <Button
+                    android:id="@+id/btninit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/init" />
+
+                <Button
+                    android:id="@+id/btnuninit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/uninit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:text="Auto sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkAutoSleep"
+                    android:layout_weight="1" />
+
+                <ToggleButton
+                    android:id="@+id/buttonToggleSleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ToggleButton"
+                    android:textOff="Sleep(off)"
+                    android:textOn="Sleep(on)" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/txsensitivity"
+                    android:layout_width="30dp"
+                    android:textSize ="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sensitivity" />
+
+                <SeekBar
+                    android:id="@+id/seekBar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:max="7"
+                    android:progress="0"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txsecuritylevel"
+                    android:layout_width="35dp"
+                    android:textSize ="9.5dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/security_level" />
+
+                <SeekBar
+                    android:id="@+id/SeekBar02"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:max="7"
+                    android:progress="0"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/txtimeout"
+                    android:layout_width="40dp"
+                    android:textSize ="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeout" />
+
+                <SeekBar
+                    android:id="@+id/SeekBar01"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:max="15"
+                    android:progress="0" />
+
+                <CheckBox
+                    android:id="@+id/chkfastmode"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fast_mode"
+                    android:textSize="10sp" />
+
+                <CheckBox
+                    android:id="@+id/chkScanningMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:textSize ="10sp"
+                    android:text="@string/Crop_Scan_Mode" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnsuprema"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/suprema" />
+
+                <Button
+                    android:id="@+id/btntypeiso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/iso" />
+
+                <Button
+                    android:id="@+id/btntypeansi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ansi" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+                    android:id="@+id/btncapturesingle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize ="10sp"
+                    android:text="@string/capture_single" />
+
+                <Button
+                    android:id="@+id/btnstartcapturing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize ="10sp"
+                    android:text="@string/start_capturing" />
+
+                <Button
+                    android:id="@+id/btnAbort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize ="10sp"
+                    android:text="@string/abort_capturing" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnenroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enroll"
+                    android:layout_weight="0.3" />
+
+                <Button
+                    android:id="@+id/btnverify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/matching"
+                    android:layout_weight="0.3" />
+
+                <ToggleButton
+                    android:id="@+id/tbtn_AutoRotate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_rotate"
+                    android:textOff="AutoRotate(Off)"
+                    android:textOn="AutoRotate(On)"
+                    android:textSize="11sp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/insert_name"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btndelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/delete_all_user" />
+
+                <Button
+                    android:id="@+id/btnSaveBmp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/savebmpfile" />
+
+                <Button
+                    android:id="@+id/btnSaveWSQ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/savewsqfile" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+
+                <Button
+                    android:id="@+id/btnSaveTemplate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SaveTemplate" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

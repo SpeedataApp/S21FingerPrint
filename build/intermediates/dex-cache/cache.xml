@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\SpeedataDemo\S21finger\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc0e5a17c657600f4a1ce9a680c95bfae6a05bd">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3b7733dc3cd3655a1c8856c21bbebe30c0aa0a7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\2adcf713e8449852a4ea8022c0e3bdeb8bd37cea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_3208d076c435b3a32c55a1baa470df9052625e04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\58f6d1fa07d8732d9a9c1649b071fa21f16b634e\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_270590db924a6465378b688256ebbd64dd0fc40f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\4bd8253c62eabbb64efbc6195943440032274925\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_cd21e3e0f9a3760b31ac32366b9461b2f1c2f0cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\6a3bd8bc1a5942c39b54c66a5ef26db7f62ab8df\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_08fb23ce4ad296cdd5a69afcc0b6fca32399df0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\6a3bd8bc1a5942c39b54c66a5ef26db7f62ab8df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_ab360dad1720fab2d00ebaf3866d8e2ef990524f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\261845ae0f52cd74b8fb28ce3dcaf3038932d340\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_eb55845f4d2a9979ad648fbf3fc06493fd100ddc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\0366edf504ebb2121d0dc3919d6650b2eb4e2a44\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_4f6b0f54efb45cf94a9ea479228a3a1a752bdacf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_4ebe7ed8b993465e47a9372f2636b321fbbf03b8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SpeedataDemo\S21finger\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f54358ef6336b2a5d3a7d1417f42f564f246c9e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\d8b1f153d7f421f3ecd92efc5cdfb58ff8d1240d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_b0822efaf8f45a2e7b086a09dc009bb5dc2cdaf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\e0764a0df1055809dc8122c44bbbddc8cb712a54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2368ca636199a8a9965c2f5b023f44d32c0a43b1">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_857747929468b33b625343a6cfaa53e7ee387c70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\2adcf713e8449852a4ea8022c0e3bdeb8bd37cea\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f3cda3049f542ce773cc046d84da90ceec5afb2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\58f6d1fa07d8732d9a9c1649b071fa21f16b634e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_e620383455b9f806966b8007a0beb9ba04ea02d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\25818565056efee9bf67856074b0835b56635184\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_38749577e53aed424e71f25b03bd763e671bc3a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\02aa0e4c613f3dc576b32a34ccb998040ff1d035\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\classes_d7d8355aac6b7ef2ca3102aa92f2c9655ff59fad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\4bd8253c62eabbb64efbc6195943440032274925\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_89230d8d8ff54c51249f92ef80e22513a8f6fcba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo-pc\.android\build-cache\d8b1f153d7f421f3ecd92efc5cdfb58ff8d1240d\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\SpeedataDemo\S21finger\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_cc5120e66ef3503c8fb3b8dd846f6bf42f65bc25.jar" />
+    </item>
+
+</items>

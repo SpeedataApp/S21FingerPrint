@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="deivice-1.4.8">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/a51b2cbd71e31cbe529e533711439925127fe64a/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a51b2cbd71e31cbe529e533711439925127fe64a/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.speedata/deivice/1.4.8/38c4dd4c9d1c24164c316886b5a5581308be73f0/deivice-1.4.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.suprema.example"
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:25.0.0'
+    compile project(':libBioMini')
+    compile 'com.speedata:deivice:1.4.8'
+}

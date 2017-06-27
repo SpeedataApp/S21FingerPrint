@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\raw\\scan.wav",
+        "source": "C:\\Users\\lenovo-pc\\.android\\build-cache\\a51b2cbd71e31cbe529e533711439925127fe64a\\output\\res\\raw\\scan.wav"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "C:\\Users\\lenovo-pc\\.android\\build-cache\\a51b2cbd71e31cbe529e533711439925127fe64a\\output\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\raw\\test.mp3",
+        "source": "C:\\Users\\lenovo-pc\\.android\\build-cache\\a51b2cbd71e31cbe529e533711439925127fe64a\\output\\res\\raw\\test.mp3"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\raw\\error.wav",
+        "source": "C:\\Users\\lenovo-pc\\.android\\build-cache\\a51b2cbd71e31cbe529e533711439925127fe64a\\output\\res\\raw\\error.wav"
+    },
+    {
+        "merged": "D:\\SpeedataDemo\\S21finger\\app\\build\\intermediates\\res\\merged\\debug\\raw\\realm_properties.txt",
+        "source": "C:\\Users\\lenovo-pc\\.android\\build-cache\\a51b2cbd71e31cbe529e533711439925127fe64a\\output\\res\\raw\\realm_properties.txt"
+    }
+]
