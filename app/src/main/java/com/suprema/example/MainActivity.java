@@ -269,6 +269,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        //Switch usb to normal
+        //切换USB 到正常状态
         try {
             deviceControl.PowerOffDevice();
             deviceControl2.PowerOffDevice();
@@ -290,6 +292,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+        //切换usb到指纹
+        //Switch usb to fingerprint
         try {
             deviceControl2 = new DeviceControl(DeviceControl.PowerType.MAIN,120);
             deviceControl = new DeviceControl(DeviceControl.PowerType.MAIN,63);
